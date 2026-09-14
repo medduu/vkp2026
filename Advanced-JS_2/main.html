@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant App - Filter by Company</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <h1>Restaurants</h1>
+
+  <div class="filters">
+    <button class="filter-btn active" type="button" data-company="all">All</button>
+    <button class="filter-btn" type="button" data-company="Sodexo">Sodexo</button>
+    <button class="filter-btn" type="button" data-company="Compass Group">Compass Group</button>
+  </div>
+
+  <p id="error-message" hidden></p>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+    </tr>
+  </table>
+
+  <dialog></dialog>
+</body>
+</html>
